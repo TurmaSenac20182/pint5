@@ -17,9 +17,14 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
+      title: 'Funcionário',
+      url: '/cadastro-funcionario',
+      icon: 'md-person-add'
+    },
+    {
+      title: 'Login',
+      url: '/pg-login',
+      icon: 'md-contact'
     }
   ];
 

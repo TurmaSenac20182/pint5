@@ -1,0 +1,50 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Cadastro de Funcionarios</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content fullscreen>
+    <form>
+        <ion-list lines="full" class="ion-no-margin ion-no-padding">
+            <ion-item>
+                <ion-label position="stacked">Nome
+                    <ion-text color="danger">*</ion-text>
+                </ion-label>
+                <ion-input required type="text"></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label position="stacked">Sobrenome
+                    <ion-text color="danger">*</ion-text>
+                </ion-label>
+                <ion-input required type="text"></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label position="stacked">Telefone
+                    <ion-text color="danger">*</ion-text>
+                </ion-label>
+                <ion-input required type="tel"></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label position="stacked">Endereço</ion-label>
+                <ion-input placeholder="Endereço Completo"></ion-input>
+                <ion-input placeholder="Complemento"></ion-input>
+                <ion-input placeholder="Bairro"></ion-input>
+                <ion-input placeholder="Cidade"></ion-input>
+                <ion-input placeholder="Estado"></ion-input>
+                <ion-input placeholder="CEP"></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label position="stacked">Observações</ion-label>
+                <ion-textarea></ion-textarea>
+            </ion-item>
+        </ion-list>
+
+        <div class="ion-padding">
+            <ion-button expand="block" type="submit" color="primary" class="ion-no-margin">Registrar</ion-button>
+        </div>
+    </form>
+</ion-content>
